@@ -1,0 +1,186 @@
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+
+
+a {
+    text-decoration: none;
+    background-color: #d9534f;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+a:hover {
+    background-color: #c9302c;
+}
+
+
+
+.Virsraksts {
+    text-align: center;
+    font-size: 42px;
+    font-weight: bold;
+    color: #1f3c5a;
+    margin-bottom: 40px;
+}
+
+
+.hBrand,
+.aBrand,
+.lBrand,
+.Intresanti_fakti {
+    width: fit-content;
+    margin: 40px auto;
+    padding: 15px 40px;
+
+    background: white;
+
+    border: 3px solid #333;
+    border-radius: 12px;
+
+    font-size: 30px;
+    font-weight: bold;
+
+    box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+}
+
+.hBrand {
+    color: orange;
+}
+
+.aBrand {
+    color: red;
+}
+
+.lBrand {
+    color: blue;
+}
+
+
+
+.container,
+.container2,
+.container3 {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+
+    background: white;
+    padding: 15px;
+
+    border-radius: 10px;
+
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+
+    margin-bottom: 15px;
+}
+
+.container div,
+.container2 div,
+.container3 div {
+    flex: 1;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.images_1,
+.images_2,
+.images_3 {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+
+    margin-bottom: 20px;
+}
+
+.images_1 img,
+.images_2 img,
+.images_3 img {
+    flex: 1;
+
+    width: 0;
+
+    height: 280px;
+
+    object-fit: contain;
+
+    background: white;
+
+    border: 2px solid #ddd;
+    border-radius: 10px;
+
+    padding: 10px;
+
+    box-sizing: border-box;
+
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+.Apraksts_1,
+.Apraksts_2,
+.Apraksts_3 {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+
+    margin-bottom: 50px;
+}
+
+.Apraksts_1 div,
+.Apraksts_2 div,
+.Apraksts_3 div {
+    flex: 1;
+
+    min-height: 150px;
+
+    background: white;
+
+    border-radius: 10px;
+
+    padding: 20px;
+
+    box-sizing: border-box;
+
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+@media (max-width: 900px) {
+
+    .container,
+    .container2,
+    .container3,
+
+    .images_1,
+    .images_2,
+    .images_3,
+
+    .Apraksts_1,
+    .Apraksts_2,
+    .Apraksts_3 {
+        flex-direction: column;
+    }
+
+    .images_1 img,
+    .images_2 img,
+    .images_3 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .container div,
+    .container2 div,
+    .container3 div {
+        padding: 10px;
+    }
+}

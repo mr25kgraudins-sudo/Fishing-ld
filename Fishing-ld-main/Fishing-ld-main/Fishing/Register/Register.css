@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  height: 100vh;
+
+  background-image: url("https://images.squarespace-cdn.com/content/v1/64525a62c1226a7b4e5e5281/4c62e374-9d00-4bc7-951a-64d7011619c7/Lake+St++Clair+Fisherman+September+2009+%281+of+1%29.png");
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.input {
+  width: 400px;
+  padding: 100px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+
+  border: 2px solid white;
+  border-radius: 10px;
+
+  background: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(3px);
+}
+
+.Virsraksts2 {
+  color: white;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.input input {
+  width: 250px;
+  padding: 10px;
+
+  border: none;
+  border-radius: 5px;
+}
+
+.btn {
+  padding: 12px 25px;
+
+  background: white;
+  color: #0ebac5;
+
+  border: 2px solid #0ebac5;
+  border-radius: 5px;
+
+  font-size: 18px;
+  cursor: pointer;
+
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #0ebac5;
+  color: white;
+}
+
+p {
+  color: white;
+}
